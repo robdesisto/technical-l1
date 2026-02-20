@@ -1,7 +1,10 @@
-import { mockService } from './service.mock.ts';
+import { mockService } from '../service.mock.ts';
 
-export async function getDelayedNumber(delay = 0): Promise<any> {
-    setTimeout(() => {
+/**
+ * Returns a number after the specified delay
+ */
+export async function getDelayedNumber(delay = 0): Promise<number> {
+   return  setTimeout(() => {
         return mockService.apiOne();
     }, delay);
 }

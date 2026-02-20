@@ -12,6 +12,7 @@ We have some basic source code. It has unit tests. None of them pass.
 
 * Debug the tests
 * Fix the source code so the tests pass
+* Each function has a JSDoc above it explaining what it should do
 
 ## Rules
 

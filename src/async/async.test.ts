@@ -8,7 +8,7 @@ describe('Async', () => {
     describe('getDelayedNumber', () => {
         it('it should return a number after the specified delay', async () => {
             const result = await getDelayedNumber(0);
-            expect(isNaN(result)).toBeFalsy();
+            expect(result).toBeGreaterThan(100);
        });
     });
 

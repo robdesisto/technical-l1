@@ -1,4 +1,4 @@
-import { mockService } from './service.mock.ts';
+import { mockService } from '../service.mock.ts';
 
 /**
  * Return values from apiOne and apiTwo as a tuple
