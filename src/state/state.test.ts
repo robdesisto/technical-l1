@@ -7,13 +7,15 @@ describe('state', () => {
    describe('multiplier', () => {
       it('should multiple a value each type it is called', () => {
           const multiply = multiplier();
-          const result1 = multiply();
 
+          const result1 = multiply();
           expect(result1).toBeGreaterThan(0);
 
           const result2 = multiply();
-
           expect(result2).toBe(result1 * 2);
+
+          const result3 = multiply();
+          expect(result3).toBe(result1 * 3);
       });
    });
 
