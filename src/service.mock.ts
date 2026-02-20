@@ -1,4 +1,7 @@
 export class MockService {
+    /**
+     * Returns a positive number between 100 and 1000
+     */
     static randomNumber() {
         return Math.round(Math.random() * 1000);
     }

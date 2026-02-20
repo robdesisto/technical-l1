@@ -1,7 +1,7 @@
 import { mockService } from '../service.mock.ts';
 
 /**
- * Returns the highest number of the three endpoints
+ * Returns the highest positive number of the three endpoints
  * as well as the raw data in the format
  * { result: number, data: number[] }
  */

@@ -5,7 +5,7 @@ import { multiplier } from './multiplier.ts';
 
 describe('state', () => {
    describe('multiplier', () => {
-      it('should multiple a value each type it is called', () => {
+      it('should multiple a value each time it is called', () => {
           const multiply = multiplier();
 
           const result1 = multiply();
